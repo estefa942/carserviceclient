@@ -1,0 +1,14 @@
+.container{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+mat-button{
+  width: 200px;
+  margin-left: 5%;
+}
+a{
+  font-size: 2rem;;
+}

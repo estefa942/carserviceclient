@@ -1,0 +1,14 @@
+<mat-card>
+  <mat-card-title>Car With Owner List</mat-card-title>
+  <mat-card-content>
+      <mat-list>
+          <mat-list-item *ngFor="let carOwner of carsForOwners">
+              <h3 mat-line>
+                  <img mat-list-avatar src="{{carOwner.car.giphyUrl}}" alt="{{carOwner.car.name}}">
+                  <span> <strong>Car: </strong> {{carOwner.car.name}} <strong>~ Owner: </strong>{{carOwner.owner.name}} </span>
+
+              </h3>
+          </mat-list-item>
+      </mat-list>
+  </mat-card-content>
+</mat-card>
