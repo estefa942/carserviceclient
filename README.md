@@ -1,13 +1,13 @@
 # CarServiceClient
 
-##Componentes:
+## Componentes:
 Para este proyecto se añadieron los componentes:
 -Home: Es la pantalla que se carga por defecto en la aplicación, y permite escoger entre las 3 listas que se tienen para visualizar: Car list, Owner List y Car For Owners List.
 -Owner list: Lista todos los propietarios existentes y también permite eliminar varios propietarios a la vez.
 -Owner-edit: Permite editar la información de un propietario o guardar uno neuvo.
 -Car-for-owner-list: Permite listar los carros existentes que poseen dueño.
 
-##Servicios:
+## Servicios:
 En el servicio de Owner se encuentra los siguientes métodos:
 -getOwner(dni): Obtiene el owner identificado por el dni que ingresa por argumento. Ejecuta el método get de HTTP.
 -createOwner(owner): Recibe como parámetro el nuevo owner. Ejecuta el método post de HTTP.
